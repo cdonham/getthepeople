@@ -1,0 +1,18 @@
+/**
+* CSS for WPSqueeze Page Plugin: Column Squeeze Page Template
+* 
+* @package WPSqueezePage
+* @author Tim Carr
+*/
+
+#container { background: #fff; width: 920px; margin: 10px auto; padding: 0px; overflow:hidden; }
+#headerImage { float: left; width: 920px; }
+#header, #footer, #footer-text  { float: left; width: 880px; padding: 0 20px; background: #fff; word-wrap: break-word; }
+#main { float: left; width: 920px; background: #fff; padding: 10px 10px 10px 0; word-wrap: break-word; }
+#content { float: left; width: 560px; padding: 0 15px 0 15px; border-right: 1px solid #dad8cb;}
+#sidebar { float: left; width: 310px; padding: 0 0 0 15px; word-wrap: break-word; }
+#sidebar p img.arrow { width: 175px; padding: 10px 72px; }
+#sidebar form.newsletter { width: 280px; }
+input[type="submit"] { width: 240px; font-size: 20px; font-weight:bold; padding: 7px 2px;}
+#footer-text { background:#FFFFFF; padding-top: 30px; padding-bottom: 20px; }
+#footer { padding: 10px 20px; }

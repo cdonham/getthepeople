@@ -1,0 +1,12 @@
+/**
+* CSS for WPSqueeze Page Plugin: Power Squeeze Page Template
+* 
+* @package WPSqueezePage
+* @author Tim Carr
+*/
+
+.containersp { margin: 0 auto; }
+p { line-height: 1.2em; }
+#footersp { background: transparent; margin: 0 auto 1-px; width: 100%; }
+.credit { text-align:center; font-size: .7em; color: #ccc; }
+.credit a { color: #ccc; }

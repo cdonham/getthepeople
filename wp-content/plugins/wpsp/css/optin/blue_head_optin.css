@@ -1,0 +1,14 @@
+.optin-head {
+    background: #082F44; /* for non-css3 browsers */
+    color: #fff;
+    max-height:105px;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight:bold;
+    letter-spacing: 1px;
+    font-size: 21px;
+    padding: 15px 10px;
+	filter: progid:DXImageTransform.Microsoft.gradient (startColorstr='#082F44', endColorstr='#0D689A'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from (#082F44), to(#0D689A)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #082F44, #0D689A); /* for firefox 3.6+ */ 
+}
+form.newsletter p { font: 13px/18px Arial, Verdana, sans-serif; }

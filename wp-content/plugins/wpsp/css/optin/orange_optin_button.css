@@ -1,0 +1,33 @@
+input[type="submit"] {
+	background: #FF900D; /* for non-css3 browsers */
+	color:#000040;
+	cursor:pointer;
+	max-width: 320px;
+	min-width: 150px;
+	max-height: 50px;
+	font-family: Arial, Verdana, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+	display: inline-block;
+    line-height: 1;
+    margin-right: 0.5em;
+    overflow: visible;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+	border:none;
+	text-shadow: 1px 1px 2px #eee;
+	
+ 	-moz-border-radius: 4px 4px 4px 4px; /* for firefox */ 
+ 	-webkit-border-radius: 4px; /* Safari and Chrome */
+ 	border: 2px solid #FF900D;
+	/* Box Shadow */
+	-moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* for firefox */ 
+	-webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Safari and Chrome */
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Others - Sorry no IE unless IE9 */
+
+
+	filter: progid:DXImageTransform.Microsoft.gradient (startColorstr='#FFC842', endColorstr='#FF900D'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from (#FFC842), to(#FF900D)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #FFC842, #FF900D); /* for firefox 3.6+ */ 
+}
